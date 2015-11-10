@@ -1,0 +1,3 @@
+[submodule "manifesto"]
+	path = manifesto
+	url = https://github.com/openpolitics/manifesto.git
