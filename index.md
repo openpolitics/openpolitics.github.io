@@ -7,7 +7,7 @@ This is a project to create a new kind of politics. We're starting by writing a 
 
 Everyone has ideas about the future - why not add yours? Perhaps you can see something on here you disagree with? Nothing on this site is set in stone - everything and anything is up for discussion, amending, or changing entirely. Your contribution doesn't have to be huge - everything helps!
 
-This is a non-partisan project, and we invite all political parties and candidates to adopt this Manifesto of policy ideas. We're really pleased that [Something New](http://www.somethingnew.org.uk) are the first political party to do so, and we hope others will soon follow. The list of candidates standing for election who have openly pledged to adopt the Open Politics Manifesto can be found [here](/candidates.html).
+This is a non-partisan project, and we invite all political parties and candidates to adopt this Manifesto of policy ideas. We're really pleased that [Something New](https://www.somethingnew.org.uk) are the first political party to do so, and we hope others will soon follow. The list of candidates standing for election who have openly pledged to adopt the Open Politics Manifesto can be found [here](/candidates.html).
 
 ## Why?
 
@@ -31,7 +31,7 @@ There are many people thinking about the new opportunities that the Internet bri
 
 ## Discussion
 
-Most discussion takes place around proposed changes. See the list of open <a href='http://votebot.openpolitics.org.uk'>votes</a> for information.
+Most discussion takes place around proposed changes. See the list of open <a href='https://votebot.openpolitics.org.uk'>votes</a> for information.
 
 Some contributors hang around in the #openpolitics IRC channel, on irc.freenode.net. Feel free to drop by for discussion or help contributing!
 

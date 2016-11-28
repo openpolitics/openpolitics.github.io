@@ -11,7 +11,7 @@ editable: false
 5. Click the 'Commit Changes' button.
 6. If this is your first edit, please agree to the [Contributor License Agreement](https://www.clahub.com/agreements/openpolitics/manifesto) to state that your submission is in the public domain.
 
-Your change will be entered into the [discussion queue](http://votebot.openpolitics.org.uk). There will then be a vote, and possibly debate, amongst contributors on whether to adopt the change.
+Your change will be entered into the [discussion queue](https://votebot.openpolitics.org.uk). There will then be a vote, and possibly debate, amongst contributors on whether to adopt the change.
 
 If you're more familiar with GitHub, you can of course use the standard fork / pull request model. The repository is [openpolitics/manifesto](https://github.com/openpolitics/manifesto).
 
@@ -64,13 +64,13 @@ A change will be closed without merging when it is more than 3 months old withou
 
 ### Counting votes
 
-Votes are counted by an automated script, which sets the GitHub build status on the pull request depending whether enough votes have been received. See the [Votes](http://votebot.openpolitics.org.uk) page for details and vote counts. 
+Votes are counted by an automated script, which sets the GitHub build status on the pull request depending whether enough votes have been received. See the [Votes](https://votebot.openpolitics.org.uk) page for details and vote counts. 
 
 If the script detects that a change has been passed, it will be merged automatically 24 hours later.
 
 ## Help
 
-* [GitHub Democracy](http://floppy.org.uk/blog/2014/10/13/github-democracy/) - James' blog post with more about this process
+* [GitHub Democracy](https://floppy.org.uk/blog/2014/10/13/github-democracy/) - James' blog post with more about this process
 * [General GitHub documentation](http://help.github.com/)
 * [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
 * [Markdown syntax reference](http://en.support.wordpress.com/markdown-quick-reference/)
