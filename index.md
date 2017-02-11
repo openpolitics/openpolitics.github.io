@@ -3,7 +3,7 @@ layout: homepage
 editable: false
 ---
 
-This is a project to create a new kind of politics. We're starting by writing a manifesto, but we want everyone to build it *together*. Click the button above to start reading, and click "Edit" at the top right to add your own ideas.
+This is a project to create a new kind of politics. We're starting by writing a [manifesto](/manifesto), but we want everyone to build it *together*. Click the button above to start reading, and click "Suggest a change" at the top right of any page to add your own ideas.
 
 Everyone has ideas about the future - why not add yours? Perhaps you can see something on here you disagree with? Nothing on this site is set in stone - everything and anything is up for discussion, amending, or changing entirely. Your contribution doesn't have to be huge - everything helps!
 
