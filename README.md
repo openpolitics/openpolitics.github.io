@@ -1,11 +1,3 @@
-# The OpenPolitics Manifesto
+# The OpenPolitics Project
 
-This is an experiment in collaboratively creating a political movement.
-
-You can read the manifesto by looking at the [main website](https://openpolitics.org.uk).
-
-## How to take part
-
-This repository stores the full text and history of the manifesto. Anyone can change or add something. See [the contributor guide](https://openpolitics.org.uk/contributing.html) for details on how to start making your own changes.
-
-You can also raise issues in the [issue tracker](https://github.com/openpolitics/manifesto/issues) for things that you think need doing.
+This README is being rewritten. See the [project website](https://openpolitics.org.uk) for up-to-date information.
