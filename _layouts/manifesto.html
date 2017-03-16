@@ -10,7 +10,7 @@ layout: root
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{site.baseurl}}/manifesto/index.html">
+      <a class="navbar-brand" href="{{site.baseurl}}manifesto/index.html">
         <img src='/images/logo64_inverted.png' alt='logo' height='20' style='vertical-align: text-bottom'/>&nbsp;The OpenPolitics Manifesto
       </a>
     </div>
@@ -19,7 +19,6 @@ layout: root
         <li class='dropdown'>
           <a class='dropdown-toggle' data-toggle='dropdown' href="/manifesto/index.html">Sections <span class='caret'></span></a>
           <ul class='dropdown-menu'>
-            <li> <a href='/manifesto/index.html'>Introduction</a></li>
             {% assign sorted_pages = site.pages | sort:"title" %}
             {% for page in sorted_pages %}
               {% if page.layout == 'manifesto_policy' or page.layout == 'manifesto_local_index' %}
