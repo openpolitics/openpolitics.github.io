@@ -10,7 +10,7 @@ task :htmlproofer => :rebuild do
     "https://votebot.openpolitics.org.uk/"
   ]
   HTMLProofer.check_directory("./_site", 
-    typhoeus: {ssl_verifypeer: false, timeout: 30},
+    typhoeus: {ssl_verifypeer: false, ssl_verifyhost: 0, timeout: 30},
     check_html: true, 
     url_ignore: ignored,
     assume_extension: ".html",
