@@ -1,11 +1,15 @@
 require 'html-proofer'
 
-task :test do
+task :rebuild do
+  sh "rm -rf _site"
   sh "bundle exec jekyll build"
-  ignore = [
-    'https://githubeditor.herokuapp.com'
-  ]
-  HTMLProofer.check_directory("./_site", {href_ignore: ignore, typhoeus: { ssl_verifypeer: false }}).run
 end
 
-task :default => :test
+task :htmlproofer => :rebuild do
+  HTMLProofer.check_directory("./_site", 
+    check_html: true, 
+    assume_extension: ".html",
+    check_favicon: true).run
+end
+
+task :default => :htmlproofer
