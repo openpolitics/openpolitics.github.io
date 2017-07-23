@@ -6,8 +6,13 @@ task :rebuild do
 end
 
 task :htmlproofer => :rebuild do
+  ignored = [
+    "https://votebot.openpolitics.org.uk/"
+  ]
   HTMLProofer.check_directory("./_site", 
+    typhoeus: {ssl_verifypeer: false, timeout: 30},
     check_html: true, 
+    url_ignore: ignored,
     assume_extension: ".html",
     check_favicon: true).run
 end
