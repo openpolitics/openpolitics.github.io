@@ -1,9 +1,5 @@
 language: ruby
 rvm:
-- 2.1.4
+- 2.4.1
 sudo: false
 cache: bundler
-branches:
-  only:
-    - gh-pages
-    - /^.*$/
