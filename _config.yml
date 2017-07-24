@@ -8,8 +8,6 @@ exclude: ["vendor"]
 kramdown:
   auto_ids: true
 
-baseurl: /
-
 data_dir: data
 
 gems:
