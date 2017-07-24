@@ -10,14 +10,14 @@ layout: root
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{site.baseurl}}manifesto/index.html">
+      <a class="navbar-brand" href="/manifesto/index.html">
         <img src='/images/logo64_inverted.png' alt='logo' height='20' style='vertical-align: text-bottom'/>&nbsp;The OpenPolitics Manifesto
       </a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class='dropdown'>
-          <a class='dropdown-toggle' data-toggle='dropdown' href="/manifesto/index.html">Sections <span class='caret'></span></a>
+          <a class='dropdown-toggle' data-toggle='dropdown' href="index.html">Sections <span class='caret'></span></a>
           <ul class='dropdown-menu'>
             {% assign sorted_pages = site.pages | sort:"title" %}
             {% for page in sorted_pages %}
@@ -29,7 +29,7 @@ layout: root
         </li>
         <li><a href="https://votebot.openpolitics.org.uk/proposals">Proposals</a></li>
         <li><a href="https://votebot.openpolitics.org.uk/ideas">Ideas</a></li>
-        <li><a href="{{site.baseurl}}manifesto/contributing.html">How to Contribute</a></li>
+        <li><a href="/manifesto/contributing.html">How to Contribute</a></li>
       </ul>
       {% if page.editable != false %}
         <a href="https://votebot.openpolitics.org.uk/edit/master/{{page.path | replace: 'manifesto/', ''}}" class='btn btn-primary navbar-btn pull-right'>
