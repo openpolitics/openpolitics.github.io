@@ -10,7 +10,7 @@ kramdown:
 
 data_dir: data
 
-gems:
+plugins:
   - jemoji
   
 defaults:
