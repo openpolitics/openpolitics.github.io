@@ -1,7 +1,7 @@
 ---
 language: ruby
 rvm:
-- 2.4.1
+- 2.4.2
 sudo: false
 cache: bundler
 env:
@@ -12,3 +12,7 @@ matrix:
   allow_failures:
   - env: TASK='jekyll:check_external_links'
 script: bundle exec rake $TASK
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev
