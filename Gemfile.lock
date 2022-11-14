@@ -285,6 +285,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
     yell (2.2.2)
     zeitwerk (2.6.6)
 
@@ -294,9 +295,10 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-test
+  webrick
 
 RUBY VERSION
-   ruby 2.6.4p104
+   ruby 3.1.2p20
 
 BUNDLED WITH
-   2.0.2
+   2.3.25
