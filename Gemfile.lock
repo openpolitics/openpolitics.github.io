@@ -26,7 +26,7 @@ GEM
     diff-lcs (1.5.0)
     dnsruby (1.70.0)
       simpleidn (~> 0.2.1)
-    drb (2.1.1)
+    drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
