@@ -242,7 +242,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.25.1)
-    net-http (0.4.1)
+    net-http (0.5.0)
       uri
     nokogiri (1.16.7)
       mini_portile2 (~> 2.8.2)
